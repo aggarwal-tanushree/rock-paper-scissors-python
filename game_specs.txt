@@ -1,0 +1,47 @@
+Rock, Paper, Scissors Game Specifications
+
+Game Overview:
+--------------
+A colorful 2D game built with Python3 and PyGame where the player competes against the computer in the classic Rock, Paper, Scissors game.
+
+Game Rules:
+-----------
+1. Rock beats scissors
+2. Scissors beat paper
+3. Paper beats rock
+
+Game Flow:
+----------
+1. The player starts at a menu screen showing the game title and current score
+2. Player clicks to start the game
+3. Player selects one of three options: rock, paper, or scissors by clicking on the corresponding colored button
+4. Computer randomly selects one of the three options
+5. The winner is determined based on the game rules
+6. The result is displayed along with updated scores
+7. Player is prompted to play another round (Y) or end the game (N)
+8. If the player chooses to end the game, a final score screen is shown
+9. Player can restart the game or quit from the final screen
+
+Technical Implementation:
+------------------------
+1. Game States:
+   - MENU: Initial screen with game title
+   - PLAYING: Screen where player makes their choice
+   - RESULT: Screen showing the outcome of the round
+   - END_SCREEN: Final screen showing game results
+
+2. Visual Elements:
+   - Rock: Red square with "ROCK" text
+   - Paper: Green square with "PAPER" text
+   - Scissors: Blue square with "SCISSORS" text
+   - Purple background for all screens
+   - Text displays for scores, results, and prompts
+
+3. User Interaction:
+   - Mouse clicks for selecting options and starting the game
+   - Keyboard input (Y/N) for continuing or ending the game
+   - Keyboard input (R/Q) for restarting or quitting from the end screen
+
+4. Scoring System:
+   - Player and computer scores are tracked throughout multiple rounds
+   - Final winner is determined by comparing total scores
