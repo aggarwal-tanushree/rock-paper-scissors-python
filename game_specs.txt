@@ -2,7 +2,7 @@ Rock, Paper, Scissors Game Specifications
 
 Game Overview:
 --------------
-A colorful 2D game built with Python3 and PyGame where the player competes against the computer in the classic Rock, Paper, Scissors game.
+A modern 2D game built with Python3 and PyGame where players compete against the computer in the classic Rock, Paper, Scissors game, featuring personalized gameplay and enhanced visuals.
 
 Game Rules:
 -----------
@@ -12,36 +12,44 @@ Game Rules:
 
 Game Flow:
 ----------
-1. The player starts at a menu screen showing the game title and current score
-2. Player clicks to start the game
-3. Player selects one of three options: rock, paper, or scissors by clicking on the corresponding colored button
+1. Player starts at a menu screen showing the game title
+2. Player enters their name for personalized gameplay
+3. Player selects one of three options: rock, paper, or scissors by clicking on the corresponding styled button
 4. Computer randomly selects one of the three options
 5. The winner is determined based on the game rules
-6. The result is displayed along with updated scores
-7. Player is prompted to play another round (Y) or end the game (N)
-8. If the player chooses to end the game, a final score screen is shown
-9. Player can restart the game or quit from the final screen
+6. The result is displayed with visual effects and updated scores
+7. Player can choose to play another round or end the game using interactive buttons
+8. Final score screen shows personalized results and options to restart or quit
 
 Technical Implementation:
 ------------------------
 1. Game States:
-   - MENU: Initial screen with game title
+   - MENU: Initial welcome screen
+   - NAME_INPUT: Screen for entering player name
    - PLAYING: Screen where player makes their choice
    - RESULT: Screen showing the outcome of the round
    - END_SCREEN: Final screen showing game results
 
 2. Visual Elements:
-   - Rock: Red square with "ROCK" text
-   - Paper: Green square with "PAPER" text
-   - Scissors: Blue square with "SCISSORS" text
-   - Purple background for all screens
-   - Text displays for scores, results, and prompts
+   - Rock: Soft red square with "ROCK" text
+   - Paper: Soft green square with "PAPER" text
+   - Scissors: Soft blue square with "SCISSORS" text
+   - Light neutral background for better visibility
+   - Interactive buttons with hover effects
+   - Shadow effects for depth
+   - Animated result text
+   - Rounded corners and modern UI elements
 
 3. User Interaction:
-   - Mouse clicks for selecting options and starting the game
-   - Keyboard input (Y/N) for continuing or ending the game
-   - Keyboard input (R/Q) for restarting or quitting from the end screen
+   - Text input for player name
+   - Mouse clicks for selecting options
+   - Interactive buttons with visual feedback
+   - Hover effects on clickable elements
+   - Keyboard shortcuts (Y/N) for quick play again
+   - Keyboard shortcuts (R/Q) for restart/quit
 
 4. Scoring System:
-   - Player and computer scores are tracked throughout multiple rounds
-   - Final winner is determined by comparing total scores
+   - Personalized score tracking with player name
+   - Computer score tracking
+   - Visual presentation of round results
+   - Final game outcome with personalized message
